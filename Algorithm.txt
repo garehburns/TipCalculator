@@ -1,0 +1,13 @@
+Created variable, percent_tip, to represent the set value of the tip percentage I was given.
+Created a float variable, meal, and added an input print command, "Please enter the cost of the meal: " to allow to user to input the cost of his/her meal.
+Created a variable, tip, with the calculation of 'meal' multiplied by 'percent_tip' to calculate how much the user should tip.
+Created a print command to add "Sub-total: $" and the 'meal' value inputted by the user earlier in the program.
+Created a print command to add "Tip: $" and 'tip' to show the user the amount of money he/she should tip the worker.
+Created a print command to add "Total: $" with the total of 'meal' and 'tip' to add up the total amount of money they will need to spend.
+Ran the program and returned with an TypeError saying that Python couldn't convert 'float' to 'str'.
+(Troubleshooting) Replaced all the +'s with commas and re-ran the program and didn't get any error.
+Created an input command, "Press 'Enter' to Exit" to allow the user to kill the program.
+Ran my program and tried a few example prices.
+Found the decimal didn't round to two decimal places.
+(Troubleshooting) Looked up how to round two decimal places in python and read a problem similar to the one I was having.
+Took the comments from the post and found a print rule, "%.2f" to use that would round to two decimal places.
